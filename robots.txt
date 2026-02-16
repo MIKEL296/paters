@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://yourchurchdomain.com/sitemap.xml
+
+# Crawl delay in seconds (optional, prevents server overload)
+Crawl-delay: 1
