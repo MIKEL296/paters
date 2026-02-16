@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Pathers Church. We're here to help, answer questions, and welcome you to our community.">
+    <meta name="keywords" content="contact, phone, email, location, directions">
+    <title>Contact | Pathers Church - Get in Touch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <a href="/" class="logo">Pathers<span>.</span></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="ministries.html">Ministries</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="im-new.html">I'm New</a></li>
+                        <li><a href="give.html">Give</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p class="hero-tagline">We'd Love to Hear From You</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section>
+        <div class="container">
+            <div class="grid grid-3 mb-lg">
+                <div class="card fade-on-scroll text-center">
+                    <h3 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: var(--spacing-md);">📍 Location</h3>
+                    <p><strong>Pathers Church</strong><br> 123 Faith Street<br> City, Country 12345</p>
+                    <a href="https://maps.google.com" class="btn btn-primary" style="margin-top: var(--spacing-lg);" target="_blank">Get Directions</a>
+                </div>
+
+                <div class="card fade-on-scroll text-center">
+                    <h3 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: var(--spacing-md);">📞 Phone</h3>
+                    <p style="font-size: 1.2rem; margin-bottom: var(--spacing-sm);"><strong>(555) 123-4567</strong></p>
+                    <p style="color: #666; font-size: 0.95rem; margin-bottom: var(--spacing-md);">Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Available after services</p>
+                    <a href="tel:+15551234567" class="btn btn-primary">Call Now</a>
+                </div>
+
+                <div class="card fade-on-scroll text-center">
+                    <h3 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: var(--spacing-md);">📧 Email</h3>
+                    <p style="margin-bottom: var(--spacing-sm);"><strong>hello@patherschurch.com</strong></p>
+                    <p style="color: #666; font-size: 0.95rem; margin-bottom: var(--spacing-md);">General inquiries, prayer requests, and feedback</p>
+                    <a href="mailto:hello@patherschurch.com" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact Form & Map -->
+    <section class="light-bg">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Contact Form -->
+                <div class="fade-on-scroll">
+                    <h2>Send Us a Message</h2>
+                    <p style="color: #666; margin-bottom: var(--spacing-lg);">Whether you have a question, want to schedule a pastoral visit, need prayer, or just want to say hello—we'd love to hear from you. Fill out the form and we'll get back to you as soon as possible.</p>
+
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number (Optional)</label>
+                            <input type="tel" id="contact-phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <select id="contact-subject" name="subject">
+                                <option>General Inquiry</option>
+                                <option>Prayer Request</option>
+                                <option>Ministry Interest</option>
+                                <option>Pastoral Needs</option>
+                                <option>Event Registration</option>
+                                <option>Facility Rental</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="6" placeholder="Tell us how we can help..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div class="fade-on-scroll">
+                    <div style="background: linear-gradient(135deg, #0f3d66, #1a5a8f); width: 100%; height: 500px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                        <div style="text-align: center; color: white;">
+                            <h3 style="margin-bottom: var(--spacing-md); font-size: 1.5rem;">📍 Pathers Church</h3>
+                            <p style="margin-bottom: var(--spacing-lg);">123 Faith Street<br>City, Country 12345</p>
+                            <a href="https://maps.google.com" class="btn btn-secondary" target="_blank">Open in Google Maps</a>
+                        </div>
+                    </div>
+
+                    <div style="background: white; padding: var(--spacing-lg); border-radius: 12px; margin-top: var(--spacing-lg);">
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">Office Hours</h4>
+                        <div style="margin-bottom: var(--spacing-md);">
+                            <p style="font-weight: 600; margin-bottom: var(--spacing-xs);">Monday - Friday</p>
+                            <p style="color: #666;">9:00 AM - 5:00 PM</p>
+                        </div>
+                        <div style="margin-bottom: var(--spacing-md);">
+                            <p style="font-weight: 600; margin-bottom: var(--spacing-xs);">Saturday</p>
+                            <p style="color: #666;">10:00 AM - 2:00 PM</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600; margin-bottom: var(--spacing-xs);">Sunday</p>
+                            <p style="color: #666;">Service times: 9:00 AM & 11:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Departments & Contacts -->
+    <section>
+        <div class="container">
+            <h2 class="text-center fade-on-scroll">Contact Our Departments</h2>
+            <div class="section-divider"></div>
+
+            <div class="grid grid-3">
+                <div class="card fade-on-scroll">
+                    <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">🎯 General Inquiries</h4>
+                    <p class="card-text">Questions about church, services, or getting started?</p>
+                    <p style="margin-top: var(--spacing-md); color: #666;">
+                        <strong>Email:</strong> hello@patherschurch.com<br>
+                        <strong>Phone:</strong> (555) 123-4567
+                    </p>
+                </div>
+
+                <div class="card fade-on-scroll">
+                    <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">👨‍💼 Pastoral Care</h4>
+                    <p class="card-text">Need prayer, counseling, or pastoral support?</p>
+                    <p style="margin-top: var(--spacing-md); color: #666;">
+                        <strong>Email:</strong> pastoral@patherschurch.com<br>
+                        <strong>Phone:</strong> (555) 123-4568
+                    </p>
+                </div>
+
+                <div class="card fade-on-scroll">
+                    <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">👨‍👩‍👧 Children & Youth</h4>
+                    <p class="card-text">Questions about kids' ministries or youth programs?</p>
+                    <p style="margin-top: var(--spacing-md); color: #666;">
+                        <strong>Email:</strong> youth@patherschurch.com<br>
+                        <strong>Phone:</strong> (555) 123-4569
+                    </p>
+                </div>
+
+                <div class="card fade-on-scroll">
+                    <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">💝 Giving & Missions</h4>
+                    <p class="card-text">Information about giving, partnerships, or mission support?</p>
+                    <p style="margin-top: var(--spacing-md); color: #666;">
+                        <strong>Email:</strong> finance@patherschurch.com<br>
+                        <strong>Phone:</strong> (555) 123-4570
+                    </p>
+                </div>
+
+                <div class="card fade-on-scroll">
+                    <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">🎪 Events & Volunteers</h4>
+                    <p class="card-text">Want to volunteer or asking about upcoming events?</p>
+                    <p style="margin-top: var(--spacing-md); color: #666;">
+                        <strong>Email:</strong> events@patherschurch.com<br>
+                        <strong>Phone:</strong> (555) 123-4571
+                    </p>
+                </div>
+
+                <div class="card fade-on-scroll">
+                    <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-md);">🏢 Facility Rental</h4>
+                    <p class="card-text">Interested in renting our facility for an event?</p>
+                    <p style="margin-top: var(--spacing-md); color: #666;">
+                        <strong>Email:</strong> facilities@patherschurch.com<br>
+                        <strong>Phone:</strong> (555) 123-4572
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Follow Us Section -->
+    <section class="light-bg">
+        <div class="container-sm text-center fade-on-scroll">
+            <h2>Stay Connected</h2>
+            <div class="section-divider"></div>
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: var(--spacing-lg);">Follow us on social media for updates, inspiration, and community news.</p>
+
+            <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap; margin-bottom: var(--spacing-lg);">
+                <a href="https://facebook.com" class="btn btn-primary" target="_blank">Facebook</a>
+                <a href="https://twitter.com" class="btn btn-primary" target="_blank">Twitter / 𝕏</a>
+                <a href="https://instagram.com" class="btn btn-primary" target="_blank">Instagram</a>
+                <a href="https://youtube.com" class="btn btn-primary" target="_blank">YouTube</a>
+            </div>
+
+            <p style="color: #666; margin-bottom: var(--spacing-lg);">Subscribe to our newsletter for weekly updates and inspiring messages.</p>
+            <form class="newsletter-form" style="max-width: 400px; margin: 0 auto;">
+                <input type="email" placeholder="Your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="dark-bg">
+        <div class="container-sm text-center fade-on-scroll">
+            <h2>Ready to Visit?</h2>
+            <p style="font-size: 1.1rem; margin-bottom: var(--spacing-lg);">We can't wait to meet you. Join us for a service and discover a welcoming community of faith.</p>
+            <a href="im-new.html" class="btn btn-secondary">Plan Your First Visit</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pathers Church</h4>
+                    <p>123 Faith Street<br>City, Country 12345</p>
+                    <p><strong>Phone:</strong> (555) 123-4567<br><strong>Email:</strong> hello@patherschurch.com</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Service Times</h4>
+                    <ul>
+                        <li>Sunday 9:00 AM</li>
+                        <li>Sunday 11:00 AM</li>
+                        <li>Wednesday 7:00 PM</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" title="Facebook" target="_blank">f</a>
+                        <a href="https://twitter.com" title="Twitter" target="_blank">𝕏</a>
+                        <a href="https://instagram.com" title="Instagram" target="_blank">📷</a>
+                        <a href="https://youtube.com" title="YouTube" target="_blank">▶</a>
+                    </div>
+                    <h4 style="margin-top: var(--spacing-lg);">Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pathers Church. All rights reserved. | <a href="#" style="color: inherit;">Privacy Policy</a> | <a href="#" style="color: inherit;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

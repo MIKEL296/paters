@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse Pathers Church sermons. Search by topic, series, and date. Listen to inspiring messages and download audio.">
+    <meta name="keywords" content="sermons, messages, audio, preaching, Bible study">
+    <title>Sermons | Pathers Church - Inspiring Messages</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <a href="/" class="logo">Pathers<span>.</span></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="ministries.html">Ministries</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="im-new.html">I'm New</a></li>
+                        <li><a href="give.html">Give</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sermons</h1>
+            <p class="hero-tagline">Inspiring Messages for Your Faith Journey</p>
+        </div>
+    </section>
+
+    <!-- Search & Filter Section -->
+    <section class="light-bg">
+        <div class="container">
+            <div style="max-width: 600px; margin: 0 auto;">
+                <input type="text" id="sermon-search" placeholder="Search by title, speaker, or series..." style="width: 100%; padding: var(--spacing-md); border: 2px solid var(--primary-color); border-radius: var(--radius-lg); font-size: 1rem;">
+            </div>
+            
+            <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+                <button class="btn btn-outline event-filter-btn active" data-category="all">All Messages</button>
+                <button class="btn btn-outline event-filter-btn" data-category="life-lessons">Life Lessons</button>
+                <button class="btn btn-outline event-filter-btn" data-category="faith-foundations">Faith Foundations</button>
+                <button class="btn btn-outline event-filter-btn" data-category="relationships">Relationships</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Sermon -->
+    <section>
+        <div class="container">
+            <h2 class="text-center fade-on-scroll">Featured Sermon</h2>
+            <div class="section-divider"></div>
+            
+            <div class="card fade-on-scroll">
+                <div style="background: linear-gradient(135deg, #0f3d66, #1a5a8f); width: 100%; padding-bottom: 56.25%; position: relative; border-radius: 12px; overflow: hidden; margin-bottom: var(--spacing-lg);">
+                    <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <h3 class="sermon-title">The Power of Faith in Uncertain Times</h3>
+                <p class="sermon-series" style="color: var(--accent-color); font-weight: 600; margin-bottom: var(--spacing-sm);">Series: Life Lessons</p>
+                <p style="color: #666; font-weight: 500; margin-bottom: var(--spacing-md);">Speaker: Pastor John Miller | Date: February 16, 2026 | Duration: 42 minutes</p>
+                
+                <p style="margin-bottom: var(--spacing-lg); line-height: 1.8;">In this powerful message, Pastor John explores how faith sustains us through life's greatest challenges. Drawing from the book of Hebrews, we discover practical ways to strengthen our trust in God during uncertain times. This sermon challenges us to move beyond intellectual belief to a faith that transforms how we live.</p>
+                
+                <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                    <a href="#" class="btn btn-primary">📥 Download Audio</a>
+                    <a href="#" class="btn btn-secondary">📖 View Notes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Sermon Archive -->
+    <section class="light-bg">
+        <div class="container">
+            <h2 class="text-center">Sermon Archive</h2>
+            <div class="section-divider"></div>
+            
+            <!-- Sermon 1 -->
+            <div class="card sermon-item fade-on-scroll" data-category="life-lessons">
+                <div style="display: flex; gap: var(--spacing-lg);">
+                    <div style="flex: 0 0 150px; background: linear-gradient(135deg, #d4a574, #e8dcc4); border-radius: 12px; height: 120px;"></div>
+                    <div style="flex: 1;">
+                        <h4 class="sermon-title">Breaking Free From Fear</h4>
+                        <p class="sermon-series" style="color: var(--accent-color); font-weight: 600; margin-bottom: var(--spacing-sm);">Series: Life Lessons</p>
+                        <p style="color: #666; font-weight: 500; margin-bottom: var(--spacing-sm);">Speaker: Pastor John Miller | February 9, 2026 | 38 minutes</p>
+                        <p style="color: #666; margin-bottom: var(--spacing-md);">Fear is one of the most powerful forces in our lives, but it doesn't have to control us. In this message, we explore how God's love casts out fear.</p>
+                        <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                            <a href="#" class="btn btn-primary">📥 Download</a>
+                            <a href="#" class="btn btn-outline">📖 Notes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sermon 2 -->
+            <div class="card sermon-item fade-on-scroll" data-category="faith-foundations" style="margin-top: var(--spacing-lg);">
+                <div style="display: flex; gap: var(--spacing-lg);">
+                    <div style="flex: 0 0 150px; background: linear-gradient(135deg, #0f3d66, #1a5a8f); border-radius: 12px; height: 120px;"></div>
+                    <div style="flex: 1;">
+                        <h4 class="sermon-title">The Gospel Essentials</h4>
+                        <p class="sermon-series" style="color: var(--accent-color); font-weight: 600; margin-bottom: var(--spacing-sm);">Series: Faith Foundations</p>
+                        <p style="color: #666; font-weight: 500; margin-bottom: var(--spacing-sm);">Speaker: Sarah Chen | February 2, 2026 | 45 minutes</p>
+                        <p style="color: #666; margin-bottom: var(--spacing-md);">What is the Gospel? At its heart, the Gospel is the good news of Jesus Christ. Join us as we explore the core truths that define our faith.</p>
+                        <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                            <a href="#" class="btn btn-primary">📥 Download</a>
+                            <a href="#" class="btn btn-outline">📖 Notes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sermon 3 -->
+            <div class="card sermon-item fade-on-scroll" data-category="relationships" style="margin-top: var(--spacing-lg);">
+                <div style="display: flex; gap: var(--spacing-lg);">
+                    <div style="flex: 0 0 150px; background: linear-gradient(135deg, #e8dcc4, #d4a574); border-radius: 12px; height: 120px;"></div>
+                    <div style="flex: 1;">
+                        <h4 class="sermon-title">Love Never Fails</h4>
+                        <p class="sermon-series" style="color: var(--accent-color); font-weight: 600; margin-bottom: var(--spacing-sm);">Series: Relationships</p>
+                        <p style="color: #666; font-weight: 500; margin-bottom: var(--spacing-sm);">Speaker: Michael Torres | January 26, 2026 | 40 minutes</p>
+                        <p style="color: #666; margin-bottom: var(--spacing-md);">In a world full of conflict and division, God calls us to love. Explore how agape love transforms relationships, communities, and the world.</p>
+                        <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                            <a href="#" class="btn btn-primary">📥 Download</a>
+                            <a href="#" class="btn btn-outline">📖 Notes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sermon 4 -->
+            <div class="card sermon-item fade-on-scroll" data-category="faith-foundations" style="margin-top: var(--spacing-lg);">
+                <div style="display: flex; gap: var(--spacing-lg);">
+                    <div style="flex: 0 0 150px; background: linear-gradient(135deg, #1a5a8f, #0f3d66); border-radius: 12px; height: 120px;"></div>
+                    <div style="flex: 1;">
+                        <h4 class="sermon-title">Building Your Spiritual Foundation</h4>
+                        <p class="sermon-series" style="color: var(--accent-color); font-weight: 600; margin-bottom: var(--spacing-sm);">Series: Faith Foundations</p>
+                        <p style="color: #666; font-weight: 500; margin-bottom: var(--spacing-sm);">Speaker: Pastor John Miller | January 19, 2026 | 43 minutes</p>
+                        <p style="color: #666; margin-bottom: var(--spacing-md);">A strong spiritual foundation is essential for growing in faith. Learn the core disciplines that will help you build an unshakeable relationship with God.</p>
+                        <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                            <a href="#" class="btn btn-primary">📥 Download</a>
+                            <a href="#" class="btn btn-outline">📖 Notes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="dark-bg">
+        <div class="container-sm text-center fade-on-scroll">
+            <h2>Missing a Sermon?</h2>
+            <p style="font-size: 1.1rem; margin-bottom: var(--spacing-lg);">Can't make it to service? Subscribe to our podcast or watch online anytime.</p>
+            <a href="index.html" class="btn btn-secondary">Subscribe to Podcast</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pathers Church</h4>
+                    <p>123 Faith Street<br>City, Country 12345</p>
+                    <p><strong>Phone:</strong> (555) 123-4567<br><strong>Email:</strong> hello@patherschurch.com</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Service Times</h4>
+                    <ul>
+                        <li>Sunday 9:00 AM</li>
+                        <li>Sunday 11:00 AM</li>
+                        <li>Wednesday 7:00 PM</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" title="Facebook" target="_blank">f</a>
+                        <a href="https://twitter.com" title="Twitter" target="_blank">𝕏</a>
+                        <a href="https://instagram.com" title="Instagram" target="_blank">📷</a>
+                        <a href="https://youtube.com" title="YouTube" target="_blank">▶</a>
+                    </div>
+                    <h4 style="margin-top: var(--spacing-lg);">Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pathers Church. All rights reserved. | <a href="#" style="color: inherit;">Privacy Policy</a> | <a href="#" style="color: inherit;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
