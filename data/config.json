@@ -66,5 +66,27 @@
         "Growth-Oriented",
         "Excellence",
         "Inclusivity"
-    ]
+    ],
+    "media": {
+        "youtube": {
+            "channelId": "",
+            "apiKey": "",
+            "featuredVideoId": "dQw4w9WgXcQ",
+            "pastorChrisVideoIds": ["dQw4w9WgXcQ"]
+        },
+        "imageProvider": {
+            "provider": "none",
+            "unsplashAccessKey": ""
+        },
+        "images": {
+            "pastorChris": [{
+                "src": "assets/images/pastor-chris-1.jpg",
+                "credit": "[Photographer Name]",
+                "source": "[Source Org or License]"
+            }],
+            "worship": [],
+            "crusades": [],
+            "attributionTemplate": "Photo: {credit} / {source}"
+        }
+    }
 }

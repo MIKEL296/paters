@@ -105,6 +105,41 @@
     </section>
 
     <!-- Latest Sermon -->
+
+    <!-- Featured Message from Pastor Chris (auto-embedded) -->
+    <section id="pastor-chris-section">
+        <div class="container">
+            <h2 class="text-center fade-on-scroll">Featured Message from Pastor Chris</h2>
+            <div class="section-divider"></div>
+
+            <div id="pastor-chris-featured" class="card fade-on-scroll" style="text-align:center;">
+                <!-- JS will inject an embedded YouTube player here (falls back to config.featuredVideoId) -->
+                <div style="background: linear-gradient(135deg, #111827, #0f3d66); width: 100%; padding-bottom: 56.25%; position: relative; border-radius: 12px; overflow: hidden;">
+                    <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color: rgba(255,255,255,0.85); font-weight:600;">
+                        Loading featured message...
+                    </div>
+                </div>
+                <p style="color:#666; margin-top: var(--spacing-md);">Auto-embedded from the configured YouTube source. Add IDs or enable the YouTube Data API in <code>data/config.json</code>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Christ Embassy / Pastor Chris Image Gallery (auto-sourced) -->
+    <section class="light-bg">
+        <div class="container">
+            <h2 class="text-center fade-on-scroll">Christ Embassy — Media Gallery</h2>
+            <div class="section-divider"></div>
+
+            <div id="christ-embassy-gallery" class="grid grid-3" style="gap:1rem;">
+                <!-- Images will be injected here by JS. Each image includes an attribution placeholder. -->
+                <div class="card" style="min-height:160px; display:flex; align-items:center; justify-content:center; color:#999;">
+                    Media will appear here once configured.
+                </div>
+            </div>
+            <p style="text-align:center; color:#777; margin-top:var(--spacing-md);">Images include attribution placeholders — replace with licensed images or enable an image API key in <code>data/config.json</code>.</p>
+        </div>
+    </section>
+
     <section id="latest-sermon">
         <div class="container">
             <h2 class="text-center">Latest Sermon</h2>
